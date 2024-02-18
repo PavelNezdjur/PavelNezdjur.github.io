@@ -1,0 +1,24 @@
+.topScores {
+   width: 130px;
+   height: 330px;
+   margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   border: 2px solid grey;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.items-head {
+   font-size: larger;
+   border-bottom: 2px solid grey;
+   text-shadow: 0 1px 1px #727070;
+   color:#990f0f;
+}
+
+.item {
+   font-size: large;
+}
