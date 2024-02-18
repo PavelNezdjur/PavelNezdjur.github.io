@@ -1,0 +1,24 @@
+.game-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.game-container-inner {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.wrapper {
+   width: 100% auto;
+   display: flex;
+   align-items: center;
+   outline: none;
+   flex-direction: column;
+}
+
+.game-over {
+   color: red;
+   font-weight: bold;
+}
